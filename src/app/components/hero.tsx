@@ -9,7 +9,7 @@ export default function Hero() {
         <div className="image-section">
           <Image
             className="img"
-            src={require("../../../public/picture/about.jpg")}
+            src={("../../../public/picture/about.jpg")}
             alt={"pic"}
             width={400}
             height={400}
@@ -25,7 +25,7 @@ export default function Hero() {
               textAlign: "center",
             }}
           >
-            Hi I'm, <span style={{ color: "#db2777" }}>Areeba</span>
+            Hi I am, <span style={{ color: "#db2777" }}>Areeba</span>
           </h1>
           <div
             style={{
@@ -37,7 +37,7 @@ export default function Hero() {
             }}
           ></div>
           <p>
-            I built this portfolio using Next.js and Tailwind CSS, and I'm
+            I built this portfolio using Next.js and Tailwind CSS, and I am
             currently expanding my expertise in Next.js and React. I specialize
             in HTML, CSS, and JavaScript, with growing proficiency in
             TypeScript. I believe in continuous learning and enjoy working on

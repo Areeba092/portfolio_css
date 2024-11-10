@@ -2,6 +2,7 @@
 "use client";
 
 import Image from "next/image";
+import img from "../../../public/dp2.jpg"
 
 export default function About() {
   return (
@@ -29,7 +30,7 @@ export default function About() {
             width={300}
             height={300}
             alt={"about-logo"}
-            src={("../../../public/picture/dp2.jpg")}
+            src={img}
           ></Image>
         </div>
       </div>

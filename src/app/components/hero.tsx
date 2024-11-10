@@ -1,6 +1,7 @@
 
 "use client";
 import Image from "next/image";
+import img from "../../../public/dp2.jpg"
 
 export default function Hero() {
   return (
@@ -9,7 +10,7 @@ export default function Hero() {
         <div className="image-section">
           <Image
             className="img"
-            src={("../../../public/picture/about.jpg")}
+            src={img}
             alt={"pic"}
             width={400}
             height={400}
